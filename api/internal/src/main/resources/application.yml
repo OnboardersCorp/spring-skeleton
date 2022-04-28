@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: Internal API
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

@@ -1,0 +1,11 @@
+server:
+  port: 11002
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: ERROR
+    com.neo.energy: DEBUG
+
+  file:
+    name: app.log

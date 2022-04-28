@@ -1,0 +1,11 @@
+server:
+  port: 10003
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    org.springframework.security: ERROR
+    com.neo.energy: INFO
+
+  file:
+    name: app.log

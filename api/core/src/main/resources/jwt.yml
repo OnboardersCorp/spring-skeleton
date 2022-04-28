@@ -1,0 +1,9 @@
+security:
+  jwt:
+    token:
+      secret-key:
+      access:
+        expire-length: 720000000
+      password:
+        expire-length: 300000
+

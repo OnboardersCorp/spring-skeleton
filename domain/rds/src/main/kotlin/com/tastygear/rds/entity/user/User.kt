@@ -20,14 +20,10 @@ data class User(
 
     var region: String,
 
-    var phoneNumber: String,
-
-    var onesignalId: String,
+    var phoneNumber: String? = null,
 
     var leaveReason: String? = null,
 
-    @Embedded
-    var agreeMarketingUsing: AgreeMarketingUsing
 ) : Account(role = Role.USER) {
 
     enum class Gender {
@@ -50,15 +46,3 @@ data class User(
         this.region = region
     }
 }
-
-@Embeddable
-data class AgreeMarketingUsing(
-    @Column(name = "AGREE_MARKETING_USING_SNS")
-    var sns: Boolean = false,
-
-    @Column(name = "AGREE_MARKETING_USING_SMS")
-    var sms: Boolean = false,
-
-    @Column(name = "AGREE_MARKETING_USING_EMAIL")
-    var email: Boolean = false,
-)

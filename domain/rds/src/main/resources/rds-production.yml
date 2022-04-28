@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username:
+    password:
+    url:
+
+  jpa:
+    database-platform:
+    properties:
+      hibernate:
+        hbm2ddl.auto: update
+        jdbc:
+          batch_size: 50
+        order_inserts: true
+        order_updates: true
+    open-in-view: false
+    show-sql: false

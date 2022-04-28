@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username:
+    password:
+    url:
+
+  jpa:
+    database-platform:
+    properties:
+      hibernate:
+        hbm2ddl.auto: create
+    open-in-view: false
+    show-sql: true

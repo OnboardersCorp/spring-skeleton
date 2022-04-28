@@ -25,6 +25,5 @@ dependencies {
     api("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.2")
 
     runtimeOnly("com.h2database:h2:1.4.200")
-    runtimeOnly("org.postgresql:postgresql:42.3.1")
 
 }

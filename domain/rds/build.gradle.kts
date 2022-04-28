@@ -24,6 +24,8 @@ dependencies {
     api("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.2")
     api("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.2")
 
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+
     runtimeOnly("com.h2database:h2:1.4.200")
 
 }

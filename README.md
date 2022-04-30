@@ -1,4 +1,27 @@
-# Getting Started
+# spring-skeleton
+
+
+### Multi Module Configuration
+
+- api
+  - core : API 코어
+  - external : 앱 사용자용 API
+  - internal : 오퍼레이터 백오피스용 API
+- domain
+  - rds : 도메인 및 RDS 설정 모듈
+  
+
+### Technology Stack
+- Kotlin 1.5.31
+- JDK 11
+- Gradle 7.4.1
+- Spring Boot 2.6.6
+- Spring Security 5.6.2
+- Spring Data JPA 2.6.3
+- Junit 5.8.2
+- Slf4j 1.7.36
+
+#
 
 ### Reference Documentation
 
